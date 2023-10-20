@@ -3,7 +3,7 @@ void main() async {
 	//with try catch
   Future<String>getData() await {
   	try {
-  	  var res=await http.get(Uri.parse("url"));
+  	  var res=await http.get(Uri.parse("https://coffee.alexflipnote.dev/random.json"));
   	  return res.toString();
   	} catch (e) {
   		return e;
