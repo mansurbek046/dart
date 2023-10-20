@@ -6,5 +6,5 @@ void main() {
   	print(value);
   }).onError((error,stackTrace){
   	print(error);
-  })
+  });
 }
