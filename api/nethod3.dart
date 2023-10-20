@@ -1,3 +1,5 @@
+import 'package:http/http.dart' as http;
+
 //without callback using async and await
 void main() async {
 	//with try catch
@@ -9,7 +11,6 @@ void main() async {
   		return e;
   	}
   }
-
-
+  
   print(await getData());
 }
